@@ -1,0 +1,30 @@
+.figma-form {
+  padding: 5px;
+  color: gray;
+  font-size: 14px;
+
+  input {
+    width: 100%;
+    font-size: 14px;
+  }
+  .figma-action {
+    padding: 0 92px;
+  }
+  button[type="submit"],
+  button[type="reset"] {
+    width: 90px;
+  }
+  button[type="reset"] {
+    margin-left: 3px;
+  }
+  .row {
+    margin: 0px !important;
+    flex-wrap: nowrap !important;
+    padding-bottom: 14px;
+    padding-right: 15px;
+  }
+
+  .visibility{
+    margin-top: 11px;
+  }
+}

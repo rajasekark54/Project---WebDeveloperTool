@@ -1,0 +1,55 @@
+#tool-form {
+  padding: 8px;
+  width: 100%;
+}
+
+#tool-form div {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+#tool-form span {
+  margin-left: 5px;
+  font-size: 14px;
+  color: green;
+}
+
+#tool-form div label {
+  width: 80px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #d0cbcb;
+  text-align: center;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+#tool-form div :nth-child(1) {
+  display: block;
+}
+
+input#url,
+input#image {
+  width: 74%;
+  height: 35px;
+  text-align: left;
+  display: block;
+}
+
+.formaction {
+  display: flex;
+}
+
+.formaction button {
+  color: white;
+  flex: 1;
+  padding: 8px 0;
+  border: 1px solid #bfa8a8;
+  border-radius: 5px;
+  background-color: #d65b5bcc;
+  font-weight: 600;
+  margin-right: 1px;
+}
